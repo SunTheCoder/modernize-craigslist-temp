@@ -127,6 +127,35 @@ h4.ban::before {
 }
 
 td {
+  border: solid 1px #333;
+  text-align: center;
   
 }
+
+.cal {
+  border-collapse: collapse;
+}
+
+.day > a {
+  color: green;
+  font-weight: bold;
+}
+
+.past {
+  color: black;
+  opacity: .5;
+  cursor: none;
+}
+
+.today > a {
+  
+  background-color: darkviolet;
+  color: white;
+  
+}
+
+.day:hover {
+  background-color: lavender;
+}
+
 
